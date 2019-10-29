@@ -1,7 +1,13 @@
-h1 {
-	color: red;
-}
+p {
+	/*content - width and height*/
+	width: 50%;
+	height: 50%;
+	/*Border*/
+	border: 2px solid blue;
+	/*padding*/
+	padding: 10px;
 
-li {
-	color: orange;
+	/*margin*/
+	/*margin: 20px 40px 500px 100px;*/
+	margin: auto auto;
 }

@@ -1,0 +1,16 @@
+p {
+	font-family: Dosis, san-serrif;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+	border-bottom: 3px solid #f1f1f1;
+	width: 30%;
+	margin-left: 1.66%;
+	padding-bottom: 5px;
+}
+
+img {
+	width: 30%;
+	float: left;
+	padding: 1.66%;
+}
