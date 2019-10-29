@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Comment!! -->
+	<title>Registration</title>
+</head>
+<body>
+<!-- 	<img src="img/dr_car_meme.jpg">
+	<p><a href="https://www.google.com">Google Link!!</a></p> -->
+	<h1>Register</h1>
+	<form>
+		<div>
+			<!-- First and Last Name -->
+			<label for="fname">First Name:</label>
+			<input id="fname" type="text" placeholder="John" required>
+
+			<label for="lname">Last Name:</label>
+			<input id="lname" type="text" placeholder="Smith" required>
+		</div>
+		<div>
+			<!-- Gender Choice -->
+			<label for="male">Male</label>
+			<input type="radio" name="gender_choice" id="male" value="male">
+			<label for="female">Female</label>
+			<input type="radio" name="gender_choice" id="female" value="female">
+			<label for="other">Other</label>
+			<input type="radio" name="gender_choice" id="other" value="other" required>
+		</div>
+		<div>
+			<!-- Email and Password -->
+			<label for="email">Email Address:</label>
+			<input id="fname" type="email" placeholder="email@gmail.com" required>
+
+			<label for="password">Password:</label>
+			<input id="password" type="password" placeholder="password" maxlength="10" minlength="5" required>
+		</div>
+		<div>
+			<!-- Date of Birth -->
+			<select name="Month" required>
+				<option>January</option>
+				<option>February</option>
+				<option>March</option>
+			</select>
+
+			<select name="Day" required>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+
+			<select name="Year" required>
+				<option>2000</option>
+				<option>2001</option>
+				<option>2002</option>
+			</select>
+
+		</div>
+		<div>
+			<!-- I agree -->
+			<label for="eula">I agree to the terms and conditions</label>
+			<input type="checkbox" name="eula" required>
+		</div>
+
+		<button>Register</button>
+	</form>
+
+</body>
+</html>
